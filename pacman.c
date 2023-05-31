@@ -595,11 +595,6 @@ int main()
             HardMode();
          else if(level==3)
             InsaneMode();
-         if(level>=4)
-             {
-                printf("\033[92m\t\t\t\t\tyou won all levels of the game");
-                break;
-             }
          reset();
         }
      }
