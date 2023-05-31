@@ -579,7 +579,16 @@ int main()
      {
        char c1= _getch();
        if(c1==13)
-        {
+        {   
+            system("cls");
+            set_cursor_position(35,15);
+            printf("loading...");
+            Sleep(1000);
+            printf(".");
+            Sleep(1000);
+            printf(".");
+            Sleep(1000);
+            printf("....");
          if(level==1)
             EasyMode();
          else if(level==2)
