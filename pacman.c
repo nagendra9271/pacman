@@ -6,7 +6,6 @@
 #define W 56
 #define NR_GHOSTS 15
 
-
 int count =0;
 int lives=3;
 int level=1;
