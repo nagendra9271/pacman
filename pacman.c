@@ -556,10 +556,15 @@ int main()
     system("cls");
     printf("\033[92m");
     printf(" \t\t            $$$$$$    $$$$$$   $$$$$$  $$      $$$  $$$$$$  $$     $$                \n");
+    Sleep(500);
     printf(" \t\t            $$   $$  $$    $$ $$       $$$    $$$$ $$    $$ $$$    $$                \n");
+    Sleep(500);
     printf(" \t\t            $$   $$  $$    $$ $$       $$ $$ $$ $$ $$    $$ $$ $$  $$                \n");
+    Sleep(500);
     printf(" \t\t            $$$$$    $$$$$$$$ $$       $$  $$$  $$ $$$$$$$$ $$  $$ $$                \n");
+    Sleep(500);
     printf(" \t\t            $$       $$    $$ $$       $$       $$ $$    $$ $$   $$$$                \n");
+    Sleep(500);
     printf(" \t\t            $$       $$    $$  $$$$$$  $$       $$ $$    $$ $$    $$$                \n");
     printf("\n\n\n");
 
@@ -574,6 +579,7 @@ int main()
           printf("\033[92m\t\t\t\tYOU WON ALL LEVELS OF THE GAME!!");
           break;
         }
+        Sleep(500);
      printf("\033[94m\4\4\4\4\4 Press enter to start the level:%d \4\4\4\4\4\n",level);
      if(_kbhit())
      {
